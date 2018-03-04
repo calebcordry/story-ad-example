@@ -1,5 +1,17 @@
 {
+  "name": "story-ad-example",
+  "version": "0.1.0",
+  "description": "story auto ads",
   "devDependencies": {
-    "browser-sync": "^2.23.6"
-  }
+  },
+  "scripts": {
+    "start": "browser-sync start -s '.' -f '.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebcordry/story-ad-example.git"
+  },
+  "author": "Caleb Cordry",
+  "license": "ISC",
+  "homepage": "https://calebcordry.github.io/story-ad-example/"
 }
